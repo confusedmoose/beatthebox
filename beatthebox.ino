@@ -3,16 +3,6 @@
 #include "MMA7660.h"
 MMA7660 accelemeter;
 
-//comment by Aidan
-//Sachin pushing
-<<<<<<< HEAD
-//Anton pushing
-=======
-// New branch
-
-//Github testing
->>>>>>> refs/remotes/origin/Sachin
-
 // rotary sensor
 #define ROTARY_ANGLE_SENSOR A2
 #define ADC_REF 5//reference voltage of ADC is 5v.If the Vcc switch on the seeeduino
