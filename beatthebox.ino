@@ -4,7 +4,13 @@
 MMA7660 accelemeter;
 
 //Sachin pushing
+<<<<<<< HEAD
 //Anton pushing
+=======
+// New branch
+
+//Github testing
+>>>>>>> refs/remotes/origin/Sachin
 
 // rotary sensor
 #define ROTARY_ANGLE_SENSOR A2
