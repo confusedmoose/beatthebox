@@ -15,6 +15,8 @@ MMA7660 accelemeter;
 #define THRESHOLD_VALUE 760 //The threshold to turn the led on 400.00*5/1024 = 1.95v
 
 const int ledPin =  3;      // the number of the LED pin
+int lastGame = 1;
+int currentGame;
 
 //button variables
 const int buttonPin = 4;     // the number of the pushbutton pin
@@ -67,7 +69,7 @@ void setup() {
 
 }
 
-void loop() {
+void loop() {  
   button_sens();
   temperature_sens();
   light_sens();
@@ -77,6 +79,50 @@ void loop() {
   
   //rotary sensor code
   degree_int = (int) degree / 10;
+
+  do{
+    currentGame = random(1,9);  
+    }
+  while(currentGame == lastGame);
+
+
+  switch(currentGame){
+    case '1':
+    //Call game #1 
+    break;
+
+    case '2':
+    //Call game #2
+    break;
+
+    case '3':
+    //Call game #3
+    break;
+
+    case '4':
+    //Call game #4
+    break;
+
+    case '5':
+    //Call game #5
+    break;
+
+    case '6':
+    //Call game #6
+    break;
+
+    case '7':
+    //Call game #7
+    break;
+
+    case '8':
+    //Call game #8
+    break;
+  }
+ 
+    
+
+    
 }
 
 // button function
