@@ -3,7 +3,12 @@
 #include "MMA7660.h"
 MMA7660 accelemeter;
 
+<<<<<<< HEAD
 //comment by Aidan
+=======
+//Sachin pushing
+//Anton pushing
+>>>>>>> origin/master
 
 // rotary sensor
 #define ROTARY_ANGLE_SENSOR A2
