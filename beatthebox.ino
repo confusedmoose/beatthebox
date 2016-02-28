@@ -80,6 +80,9 @@ void loop() {
   //rotary sensor code
   degree_int = (int) degree / 10;
 
+
+  //Main Game Loop
+
   do{
     currentGame = random(1,9);  
     }
