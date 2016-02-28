@@ -3,6 +3,7 @@
 #include "MMA7660.h"
 MMA7660 accelemeter;
 
+//comment by Aidan
 //Sachin pushing
 <<<<<<< HEAD
 //Anton pushing
